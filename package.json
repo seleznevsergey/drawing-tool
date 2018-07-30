@@ -4,9 +4,10 @@
   "description": "Test drawing tool",
   "main": "./src/index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha ./test/*.spec.*"
+    "test": "./node_modules/.bin/mocha ./test/*.spec.*",
+    "start": "node ."
   },
-  "author": "",
+  "author": "Sergey Seleznev",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.1.2",
